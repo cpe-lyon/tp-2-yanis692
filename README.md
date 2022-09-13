@@ -19,3 +19,12 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 
 Script password :
 ![image](https://user-images.githubusercontent.com/77662970/189850690-81648897-a0a6-487d-b417-aae1a9d6f2f0.png)
+
+Script exo3 :
+![image](https://user-images.githubusercontent.com/77662970/189872006-505193e3-07dd-4c50-b32e-9e39d315fddf.png)
+
+
+![image](https://user-images.githubusercontent.com/77662970/189872246-85d8079c-e94d-4e2e-8eaa-c35a6e4e1a4f.png)
+
+
+
