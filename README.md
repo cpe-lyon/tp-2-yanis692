@@ -11,8 +11,8 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 8.![image](https://user-images.githubusercontent.com/77662970/189622133-29bef768-ea70-4b81-88a1-255a8698980c.png)
 
 
-
 9.La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
+
 10. ![image](https://user-images.githubusercontent.com/77662970/189623274-a6cdb258-b054-49f7-ab0a-f54e74d57c82.png)
 
 #Programmation BASH
