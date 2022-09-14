@@ -8,6 +8,7 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 5.La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe pas car nous l'avons crée en dans le shell et pas dans le bash. 
 6. La variable s'affiche car nous avons modifier le fichier bash.bashrc et en le modifiant cela nous permet d'avoir accées a la variable sur tout les interpréteur de commande.
 
+
 8.![image](https://user-images.githubusercontent.com/77662970/189622133-29bef768-ea70-4b81-88a1-255a8698980c.png)
 
 
@@ -15,9 +16,10 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 
 10. ![image](https://user-images.githubusercontent.com/77662970/189623274-a6cdb258-b054-49f7-ab0a-f54e74d57c82.png)
 
+
 #Programmation BASH
 
-Script password :
+##Exercice 2. Contrôle de mot de passe
 
 
 ![image](https://user-images.githubusercontent.com/77662970/189850690-81648897-a0a6-487d-b417-aae1a9d6f2f0.png)
@@ -26,12 +28,12 @@ Script password :
 ![image](https://user-images.githubusercontent.com/77662970/189873329-f30beb8f-29da-482c-b0e3-788ac2894cb1.png)
 
 
-Script exo3 :
+##Exercice 3. Expressions rationnelles
 
 ![image](https://user-images.githubusercontent.com/77662970/189872006-505193e3-07dd-4c50-b32e-9e39d315fddf.png)
 
 
 ![image](https://user-images.githubusercontent.com/77662970/189872246-85d8079c-e94d-4e2e-8eaa-c35a6e4e1a4f.png)
 
-
+##Exerice 4
 
