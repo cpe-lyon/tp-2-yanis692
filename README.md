@@ -37,3 +37,8 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 
 ## Exercice 4. Contrôle d’utilisateur
 
+![image](https://user-images.githubusercontent.com/77662970/190355814-79235c66-7f20-430b-824d-704228b8073b.png)
+
+
+![image](https://user-images.githubusercontent.com/77662970/190355958-8d388945-132a-483f-a743-a6a6743accbd.png)
+
