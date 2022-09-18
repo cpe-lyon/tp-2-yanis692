@@ -55,7 +55,8 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 ## Exercice 6. Le juste prix
 
 
-![image](https://user-images.githubusercontent.com/77662970/190899100-d6a9c126-35ad-49a4-8b1f-72b2295f1218.png)
+![image](https://user-images.githubusercontent.com/77662970/190899126-aec6980d-1282-40a2-9e3f-8aff24569cfa.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/77662970/190899088-7de91e65-98eb-4117-86e9-273cb85d3d85.png)
