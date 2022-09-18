@@ -42,3 +42,14 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 
 ![image](https://user-images.githubusercontent.com/77662970/190355958-8d388945-132a-483f-a743-a6a6743accbd.png)
 
+
+## Exercice 5. Factorielle
+
+
+![image](https://user-images.githubusercontent.com/77662970/190897766-bbba2828-1981-420e-8378-52258cbc9031.png)
+
+
+![image](https://user-images.githubusercontent.com/77662970/190897787-39278698-be2f-481a-b6da-3d432d67dd6f.png)
+
+
+## Exercice 6. Le juste prix
