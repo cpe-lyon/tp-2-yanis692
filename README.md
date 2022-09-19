@@ -62,7 +62,7 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 ![image](https://user-images.githubusercontent.com/77662970/190899088-7de91e65-98eb-4117-86e9-273cb85d3d85.png)
 
 
-##Exercice 7. Statistiques
+## Exercice 7. Statistiques
 
 2.
 ![image](https://user-images.githubusercontent.com/77662970/190920012-81edd3fe-827d-4053-a943-d3334f06257e.png)
