@@ -24,12 +24,19 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 ```
 echo "Bonjour à vous, $NOM"
 ```
+
+![image](https://user-images.githubusercontent.com/77662970/192109908-f9327558-7f05-40d4-8365-a8af1cb9faeb.png)
+
+
 9.La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
 
 10. 
 ```
 echo "$HOME"
 ```
+
+![image](https://user-images.githubusercontent.com/77662970/192109874-6eae28f2-2509-4bac-bb27-fbfaa7459725.png)
+
 
 # Programmation BASH
 
