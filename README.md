@@ -11,7 +11,7 @@ printenv PATH
 
 3. La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
 
-4.  Pour créer une variable locale, on utilise la commande ```nomVariable="contenu"```.                                 Ici, nous utilisons 
+4.  Pour créer une variable locale, on utilise la commande ```nomVariable="contenu"```.                                 Ici, nous utilisons ```MY_VAR"test"```
 
 . Pour vérifier son existence, il faut taper
 ```
