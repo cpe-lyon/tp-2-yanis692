@@ -16,7 +16,14 @@ OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et S
 
 8.![image](https://user-images.githubusercontent.com/77662970/189622133-29bef768-ea70-4b81-88a1-255a8698980c.png)
 
+5.La commande bash permet de créer un nouveau shell , la variable $MY_VAR n'existe pas car c'est une variable local que l'on a créer dans un autres session
 
+6.En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
+
+8. 
+```
+echo "Bonjour à vous, $NOM"
+```
 9.La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
 
 10. ![image](https://user-images.githubusercontent.com/77662970/189623274-a6cdb258-b054-49f7-ab0a-f54e74d57c82.png)
