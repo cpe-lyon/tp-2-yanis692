@@ -6,6 +6,7 @@
 printenv PATH
 ```
 ![image](https://user-images.githubusercontent.com/77662970/189591857-7fc5429b-3861-4470-ab75-0f3547f84e5b.png)
+
 2. La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
 3. La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, 
 OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
