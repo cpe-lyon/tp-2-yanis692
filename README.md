@@ -98,8 +98,6 @@ else
       echo "L'utilisateur n'existe pas"
 fi
 ```
-![image](https://user-images.githubusercontent.com/77662970/190355814-79235c66-7f20-430b-824d-704228b8073b.png)
-
 
 ![image](https://user-images.githubusercontent.com/77662970/190355958-8d388945-132a-483f-a743-a6a6743accbd.png)
 
@@ -145,6 +143,44 @@ echo "C'est gagné !"
 ## Exercice 7. Statistiques
 
 2.
+```
+#!/bin/bash
+min=$1
+max=0
+count=0
+Sum=0
+function is_number()
+{
+re="^(+-]?[0-9]+(L.][0-9]+)2$"
+
+if ! [[ $1 =~ $re ]] ; then
+    return 1
+else
+   return 0
+fi
+}
+is_number
+while [ "$*" ]; do
+if [ $? = 1 ] || ($1 -gt 100 ] || [ $1 -lt -100 ]; then
+   echo "Entrez des nombres compris entre -100 et 100"
+   exit
+fi
+if【＄1 -le $min ]; then
+    min=$1
+fi
+if [ $1 -ge smax ]; then
+    max=＄1
+fi
+count=$(( $count +1 ))
+sum=$(( $1 + sum ) )
+moyenne=$(( $sum / Scount ))
+shift
+done
+
+echo "Le minimum est $min"
+echo "Le maximum est $max"
+echo "La moyenne est $moyenne"
+```
 ![image](https://user-images.githubusercontent.com/77662970/190920012-81edd3fe-827d-4053-a943-d3334f06257e.png)
 
 
