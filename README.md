@@ -2,7 +2,8 @@
 
 # TP 2:
 1.
-```printenv PATH
+```
+printenv PATH
 ```
 ![image](https://user-images.githubusercontent.com/77662970/189591857-7fc5429b-3861-4470-ab75-0f3547f84e5b.png)
 2. La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
