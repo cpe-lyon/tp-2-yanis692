@@ -22,7 +22,10 @@ echo "$MY_VAR"
 ```
 et le système devrait retourner Test.
 
-5.La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe pas car nous l'avons crée en dans le shell et pas dans le bash. 
+![image](https://user-images.githubusercontent.com/77662970/192110618-ae4eb7ba-6659-4fdd-9346-b1fafdae5975.png)
+
+
+5.La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe car nous l'avons crée  dans un autre interpreteur. 
 
 6. En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
 
