@@ -13,9 +13,9 @@ printenv PATH
 
 4.  Pour créer une variable locale, on utilise la commande ```nomVariable="contenu"```. Ici, nous utilisons 
 ```                                                                                                               MY_VAR="Test"                                                                                                            ``` 
-. Pour vérifier son existence, il faut taper echo 
+. Pour vérifier son existence, il faut taper
 ```
-"$MY_VAR"
+echo "$MY_VAR"
 ```
 et le système devrait retourner Test.
 
