@@ -88,7 +88,16 @@ echo "Le code erreur est : $?"
 ```
 
 ## Exercice 4. Contrôle d’utilisateur
-
+```
+#!/bin/bash
+if [ -z $1 ]; then
+    echo "Utilsation : $0 nom-utilisateur"
+elif grep -w $1 /etc/passwd ›/dev/null; then
+       echo "L'utilisateur existe"
+else
+      echo "L'utilisateur n'existe pas"
+fi
+```
 ![image](https://user-images.githubusercontent.com/77662970/190355814-79235c66-7f20-430b-824d-704228b8073b.png)
 
 
