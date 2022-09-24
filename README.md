@@ -65,7 +65,6 @@ else
 fi
 
 ```
-![image](https://user-images.githubusercontent.com/77662970/189873329-f30beb8f-29da-482c-b0e3-788ac2894cb1.png)
 
 
 ## Exercice 3. Expressions rationnelles
