@@ -86,7 +86,6 @@ fi
 is_number $1
 echo "Le code erreur est : $?"
 ```
-![image](https://user-images.githubusercontent.com/77662970/189872246-85d8079c-e94d-4e2e-8eaa-c35a6e4e1a4f.png)
 
 ## Exercice 4. Contrôle d’utilisateur
 
