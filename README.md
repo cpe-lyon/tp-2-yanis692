@@ -151,7 +151,7 @@ count=0
 Sum=0
 function is_number()
 {
-re="^(+-]?[0-9]+(L.][0-9]+)2$"
+re="^(+-]?[0-9]+([.][0-9]+)?$"
 
 if ! [[ $1 =~ $re ]] ; then
     return 1
@@ -165,7 +165,7 @@ if [ $? = 1 ] || ($1 -gt 100 ] || [ $1 -lt -100 ]; then
    echo "Entrez des nombres compris entre -100 et 100"
    exit
 fi
-if【＄1 -le $min ]; then
+if【 ＄1 -le $min ]; then
     min=$1
 fi
 if [ $1 -ge smax ]; then
@@ -181,8 +181,6 @@ echo "Le minimum est $min"
 echo "Le maximum est $max"
 echo "La moyenne est $moyenne"
 ```
-![image](https://user-images.githubusercontent.com/77662970/190920012-81edd3fe-827d-4053-a943-d3334f06257e.png)
-
 
 ![image](https://user-images.githubusercontent.com/77662970/190920055-e802ee2a-011a-41b5-8e8e-945492393e03.png)
 
