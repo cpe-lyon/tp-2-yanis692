@@ -26,8 +26,10 @@ echo "Bonjour à vous, $NOM"
 ```
 9.La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
 
-10. ![image](https://user-images.githubusercontent.com/77662970/189623274-a6cdb258-b054-49f7-ab0a-f54e74d57c82.png)
-
+10. 
+```
+echo "$HOME"
+```
 
 # Programmation BASH
 
