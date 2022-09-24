@@ -112,8 +112,23 @@ echo "$res"
 
 
 ## Exercice 6. Le juste prix
+```
+#!/bin/bash
+nbr=$(( $RANDOM % 1001 ))
+read -p "Entrez un chiffre : " chiffre
+while [ $chiffre != $nbr ]
+do
+    if [ $chiffre -gt $nbr ]; then
+        echo "C'est moins"
+    fi    
+    if [ $chiffre -lt $nbr ]; then
+        echo "C'est plus"
+    fi
+     read -p "Entrez un chiffre : " chiffre
+done
 
-
+echo "C'est gagné !"
+```
 ![image](https://user-images.githubusercontent.com/77662970/190899126-aec6980d-1282-40a2-9e3f-8aff24569cfa.png)
 
 
