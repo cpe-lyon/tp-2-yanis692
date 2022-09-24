@@ -71,7 +71,21 @@ fi
 
 ![image](https://user-images.githubusercontent.com/77662970/189872006-505193e3-07dd-4c50-b32e-9e39d315fddf.png)
 
+``` 
+#!/bin/bash
 
+function is_number()
+{
+re='^[+-]?[0-9]+([.][0-9]+)?$'
+if ! [[ $1 =~ $re ]] ; then
+        return 1
+else
+        return 0
+fi
+}
+is_number $1
+echo "Le code erreur est : $?"
+```
 ![image](https://user-images.githubusercontent.com/77662970/189872246-85d8079c-e94d-4e2e-8eaa-c35a6e4e1a4f.png)
 
 ## Exercice 4. Contrôle d’utilisateur
