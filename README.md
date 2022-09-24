@@ -54,7 +54,17 @@ echo "$HOME"
 
 ![image](https://user-images.githubusercontent.com/77662970/189850690-81648897-a0a6-487d-b417-aae1a9d6f2f0.png)
 
+```
+#!/bin/bash
+mdp=moi
+read -p 'Saisissez le mot de passe : ' -s psw
+if [ $psw = $mdp ]; then
+        echo "Le mot de passe est bon !"
+else
+        echo "Le mot de passe est pas bon !"
+fi
 
+```
 ![image](https://user-images.githubusercontent.com/77662970/189873329-f30beb8f-29da-482c-b0e3-788ac2894cb1.png)
 
 
