@@ -107,8 +107,6 @@ do
 done
 echo "$res"
 ```
-![image](https://user-images.githubusercontent.com/77662970/190897766-bbba2828-1981-420e-8378-52258cbc9031.png)
-
 
 ![image](https://user-images.githubusercontent.com/77662970/190897787-39278698-be2f-481a-b6da-3d432d67dd6f.png)
 
