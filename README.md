@@ -8,17 +8,12 @@ printenv PATH
 ![image](https://user-images.githubusercontent.com/77662970/189591857-7fc5429b-3861-4470-ab75-0f3547f84e5b.png)
 
 2. La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
-3. La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, 
-OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
+
+3. La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
+
 5.La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe pas car nous l'avons crée en dans le shell et pas dans le bash. 
-6. La variable s'affiche car nous avons modifier le fichier bash.bashrc et en le modifiant cela nous permet d'avoir accées a la variable sur tout les interpréteur de commande.
 
-
-8.![image](https://user-images.githubusercontent.com/77662970/189622133-29bef768-ea70-4b81-88a1-255a8698980c.png)
-
-5.La commande bash permet de créer un nouveau shell , la variable $MY_VAR n'existe pas car c'est une variable local que l'on a créer dans un autres session
-
-6.En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
+6. En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
 
 8. 
 ```
