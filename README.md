@@ -1,8 +1,8 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8465525&assignment_repo_type=AssignmentRepo)
 
 # TP 2:
-1.```
-printenv PATH
+1.
+```printenv PATH
 ```
 ![image](https://user-images.githubusercontent.com/77662970/189591857-7fc5429b-3861-4470-ab75-0f3547f84e5b.png)
 2. La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
