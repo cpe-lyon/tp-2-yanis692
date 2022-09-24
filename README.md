@@ -97,7 +97,16 @@ echo "Le code erreur est : $?"
 
 ## Exercice 5. Factorielle
 
-
+```
+#!/bin/bash
+fact=1
+for i in $(seq 1 $1)
+do 
+   res=$(( $fact * $i ))
+   fact=$res
+done
+echo "$res"
+```
 ![image](https://user-images.githubusercontent.com/77662970/190897766-bbba2828-1981-420e-8378-52258cbc9031.png)
 
 
