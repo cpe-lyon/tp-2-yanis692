@@ -201,6 +201,8 @@ echo "Le minimum est $min"
 echo "Le maximum est $max"
 echo "La moyenne est $moyenne"
 ```
+![image](https://user-images.githubusercontent.com/77662970/192146447-cdf1c568-389c-42c6-b9fc-2abfc204dfbd.png)
+
 
 2.
 ```
