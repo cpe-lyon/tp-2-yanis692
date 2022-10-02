@@ -246,3 +246,59 @@ echo "La moyenne est $moyenne"
 
 ![image](https://user-images.githubusercontent.com/77662970/190920055-e802ee2a-011a-41b5-8e8e-945492393e03.png)
 
+3.
+```
+#!/bin/bash
+function is_number ()
+{
+re="^[+-]?[0-9]+([.][0-9]+)?$'
+
+if ! [[ $1 =~ $re ]] ; then
+    return 1
+else
+    return O
+fi
+}
+
+read -p "Combien de notes allez-vous entrer ? " note
+for i in $(seq 1 $note)
+{
+read -p "Entrez une note" tab[$i]
+}
+
+echo ${tab[@]}
+if (( $note > O )); then
+        MAX=200
+        MIN=200
+else
+        echo "Entrez minimum 2 notes"
+        exit
+fi
+
+function print_stat ()
+{
+for VAR in "$@"
+ do
+   is_number $VAR
+   if [[ $? -ne 0 ]]; then
+        echo "Entrez des nombres compris entre -100 et 100"
+fi
+if (( $VAR > $MAX )); then
+        MAX=$VAR
+fi
+if (( $VAR < $MIN )); then
+        MIN=$VAR
+fi
+moy=$(( $moy + $VAR ))
+done
+moy=$(( $moy / $# ))
+
+echo "Le minimum est $MIN"
+echo "Le maximul est $MAX"
+echo "La moyenne est $moy"
+}
+
+print_stat $[tab[@]}
+
+![image](https://user-images.githubusercontent.com/77662970/193452429-03099f4e-5518-4b97-86b1-b826edfac27b.png)
+
