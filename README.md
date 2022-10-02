@@ -299,6 +299,6 @@ echo "La moyenne est $moy"
 }
 
 print_stat $[tab[@]}
-
+```
 ![image](https://user-images.githubusercontent.com/77662970/193452429-03099f4e-5518-4b97-86b1-b826edfac27b.png)
 
