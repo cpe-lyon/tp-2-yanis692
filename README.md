@@ -47,7 +47,10 @@ echo "$HOME"
 
 # Programmation BASH
 
-## Exercice 2. Contrôle de mot de passe
+# Exercice 2. Contrôle de mot de passe
+Écrivez un script testpwd.sh qui demande de saisir un mot de passe et vérifie s’il correspond ou non au
+contenu d’une variable PASSWORD dont le contenu est codé en dur dans le script. Le mot de passe saisi par
+l’utilisateur ne doit pas s’afficher.
 
 
 ![image](https://user-images.githubusercontent.com/77662970/189850690-81648897-a0a6-487d-b417-aae1a9d6f2f0.png)
@@ -65,7 +68,9 @@ fi
 ```
 
 
-## Exercice 3. Expressions rationnelles
+# Exercice 3. Expressions rationnelles
+Ecrivez un script qui prend un paramètre et utilise la fonction suivante pour vérifier que ce paramètre
+est un nombre réel :
 
 ![image](https://user-images.githubusercontent.com/77662970/189872006-505193e3-07dd-4c50-b32e-9e39d315fddf.png)
 
@@ -85,7 +90,12 @@ is_number $1
 echo "Le code erreur est : $?"
 ```
 
-## Exercice 4. Contrôle d’utilisateur
+# Exercice 4. Contrôle d’utilisateur
+Écrivez un script qui vérifie l’existence d’un utilisateur dont le nom est donné en paramètre du script. Si le
+script est appelé sans nom d’utilisateur, il affiche le message : ”Utilisation : nom_du_script nom_utilisateur”,
+où nom_du_script est le nom de votre script récupéré automatiquement (si vous changez le nom de votre
+script, le message doit changer automatiquement)
+
 ```
 #!/bin/bash
 if [ -z $1 ]; then
@@ -100,7 +110,10 @@ fi
 ![image](https://user-images.githubusercontent.com/77662970/190355958-8d388945-132a-483f-a743-a6a6743accbd.png)
 
 
-## Exercice 5. Factorielle
+# Exercice 5. Factorielle
+Écrivez un programme qui calcule la factorielle d’un entier naturel passé en paramètre (on supposera que
+l’utilisateur saisit toujours un entier naturel).
+
 
 ```
 #!/bin/bash
@@ -116,7 +129,10 @@ echo "$res"
 ![image](https://user-images.githubusercontent.com/77662970/190897787-39278698-be2f-481a-b6da-3d432d67dd6f.png)
 
 
-## Exercice 6. Le juste prix
+# Exercice 6. Le juste prix
+Écrivez un script qui génère un nombre aléatoire entre 1 et 1000 et demande à l’utilisateur de le deviner.
+Le programme écrira ”C’est plus !”, ”C’est moins !” ou ”Gagné !” selon les cas (vous utiliserez $RANDOM).
+
 ```
 #!/bin/bash
 nbr=$(( $RANDOM % 1001 ))
@@ -138,8 +154,11 @@ echo "C'est gagné !"
 ![image](https://user-images.githubusercontent.com/77662970/190899088-7de91e65-98eb-4117-86e9-273cb85d3d85.png)
 
 
-## Exercice 7. Statistiques
-1.
+# Exercice 7. Statistiques
+## 1. Écrivez un script qui prend en paramètres trois entiers (entre -100 et +100) et affiche le min, le max
+et la moyenne. Vous pouvez réutiliser la fonction de l’exercice 3 pour vous assurer que les paramètres
+sont bien des entiers.
+
 ```
 #!/bin/bash
 error=0
@@ -200,9 +219,7 @@ echo "Le maximum est $max"
 echo "La moyenne est $moyenne"
 ```
 ![image](https://user-images.githubusercontent.com/77662970/192146447-cdf1c568-389c-42c6-b9fc-2abfc204dfbd.png)
-
-
-2.
+## 2. Généralisez le programme à un nombre quelconque de paramètres (pensez à SHIFT)
 ```
 #!/bin/bash
 min=$1
@@ -243,8 +260,8 @@ echo "La moyenne est $moyenne"
 ```
 
 ![image](https://user-images.githubusercontent.com/77662970/190920055-e802ee2a-011a-41b5-8e8e-945492393e03.png)
-
-3.
+## 3. Modifiez votre programme pour que les notes ne soient plus données en paramètres, mais saisies et
+stockées au fur et à mesure dans un tableau.
 ```
 #!/bin/bash
 function is_number ()
