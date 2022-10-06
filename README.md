@@ -1,51 +1,49 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8465525&assignment_repo_type=AssignmentRepo)
 
-# TP 2:
-1.
+# TP 2- Bash
+
+# Exercice 1. Variables d’environnement
+## 1. Dans quels dossiers bash trouve-t-il les commandes tapées par l’utilisateur ?
 ```
 printenv PATH
 ```
 ![image](https://user-images.githubusercontent.com/77662970/189591857-7fc5429b-3861-4470-ab75-0f3547f84e5b.png)
-
-2. La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
-
-3. La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
-
-4.  Pour créer une variable locale, on utilise la commande ```nomVariable="contenu"```.                                 Ici, nous utilisons 
+## 2. Quelle variable d’environnement permet à la commande cd tapée sans argument de vous ramener dans
+votre répertoire personnel ?
+La variable $HOME nous raméne directement dans notre répertoire avec la commande cd $HOME.
+## 3. Explicitez le rôle des variables LANG, PWD, OLDPWD, SHELL.
+La variable LANG permet de voir la langue utilisé par le système, la variable pwd permet de lister le répertoire de travail courant dans l'interpréteur de commande, OLDPWD permet d'accéder a l'ancien repertoire graxce au chemin enregistrer et SHELL est l'interpreteur de commande de l'utilisateur.
+## 4. Créez une variable locale MY_VAR (le contenu n’a pas d’importance). Vérifiez que la variable existe
+Pour créer une variable locale, on utilise la commande ```nomVariable="contenu"```.                                          Ici, nous utilisons 
 ```
 MY_VAR"test"
 ```
-
-. Pour vérifier son existence, il faut taper
+Pour vérifier son existence, il faut taper
 ```
 echo "$MY_VAR"
 ```
 et le système devrait retourner Test.
 
 ![image](https://user-images.githubusercontent.com/77662970/192110618-ae4eb7ba-6659-4fdd-9346-b1fafdae5975.png)
-
-
-5.La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe car nous l'avons crée  dans un autre interpreteur. 
-
-6. En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
-
-8. 
+## 5. Tapez ensuite la commande bash. Que fait-elle ? La variable MY_VAR existe-t-elle ? Expliquez. A la fin
+de cette question, tapez la commande exit pour revenir dans votre session initiale.
+La commande bash nous emmenne dans un nouveau interpréteur de commande. La variable MY_Var n'existe car nous l'avons crée  dans un autre interpreteur. 
+## 6. Transformez MY_VAR en une variable d’environnement et recommencez la question précédente. Expliquez.
+En la transformant en variable d'environement la variable est disponible a partir de tous les shell ou interpréteur.
+## 8. Ecrivez une commande qui affiche ”Bonjour à vous, prenom nom !” en utilisant la variable NOM.
 ```
 echo "Bonjour à vous, $NOM"
 ```
-
 ![image](https://user-images.githubusercontent.com/77662970/192109908-f9327558-7f05-40d4-8365-a8af1cb9faeb.png)
-
-
-9.La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
-
-10. 
+## 9. Quelle différence y a-t-il entre donner une valeur vide à une variable d’environnement et l’utilisation
+de la commande unset ?
+La commande unset va supprimer la variable dans sa totalité et alors mettre 0 commentaire la variable existera toujours.
+## 10. Utilisez la commande echo pour écrire exactement la phrase : $HOME = chemin (où chemin est votre
+dossier personnel d’après bash)
 ```
 echo "$HOME"
 ```
-
 ![image](https://user-images.githubusercontent.com/77662970/192109874-6eae28f2-2509-4bac-bb27-fbfaa7459725.png)
-
 
 # Programmation BASH
 
